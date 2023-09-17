@@ -180,8 +180,8 @@
 
 	    <h4>Experimental conditions</h4>
 	    <ul>
-	      <li>We evaluated our method on the <strong>Spoke</strong> (i.e., <strong>non-parallel VC</strong>) task of <a href="https://datashare.is.ed.ac.uk/handle/10283/3061"><strong>the Voice Conversion Challenge 2018 (VCC 2018)</strong></a> <a href="#4">[4]</a>.</li>
-	      <li>For each speaker, 75 sentences (approximately <strong>5 min</strong> in length, which is relatively short for VC) were used for training and 6 sentences for validation.</li>
+	      <li>We evaluated our method on the <strong>Spoke</strong> (i.e., <strong>non-parallel VC</strong>) task of <a href="https://datashare.is.ed.ac.uk/handle/10283/3061"><strong>the Voice Conversion Challenge 2018 (VCC 2018) [1].</strong></a></li>
+	      <li>For each speaker, 81 sentences (approximately <strong>5 min</strong> in length, which is relatively short for VC) were used for training and 35 sentences for test.</li>
 	      <li>The training set contains <strong>no overlapping utterances</strong> between the source and target speakers; therefore, we need to learn a converter in a <strong>fully non-parallel setting</strong>.</li>
 	      <!-- <li>We used <a href="https://github.com/descriptinc/melgan-neurips"><strong>MelGAN</strong></a> <a href="#5">[5]</a> as a vocoder.</li> -->
 	    </ul>
@@ -190,7 +190,7 @@
 	    <ul>
 	      <!-- <li><strong>V2</strong>: <a href="../cyclegan-vc2/index.html"><strong>CycleGAN-VC2</strong></a> <a href="#2">[2]</a></li>
 	      <li><strong>V3</strong>: <a href="../cyclegan-vc3/index.html"><strong>CycleGAN-VC3</strong></a> <a href="#3">[3]</a></li> -->
-	      <li><strong id="pinkstrong">Mask</strong>: <strong id="pinkstrong">MaskCycleGAN-VC</strong></li>
+	      <li><a href="http://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/maskcyclegan-vc/index.html"><strong id="pinkstrong">MaskCycleGAN-VC [2]</strong></a></li>
 	    </ul>
 
 	    <h4>Results</h4>
@@ -473,6 +473,23 @@
 	<div class="row" id="references">
 	  <div class="col-md-12">
 	    <h2>References</h2>
+
+	    <div class="paddingleft">
+	      <a name="1" class="text-primary">[1]</a>
+	      J. Lorenzo-Trueba, J. Yamagishi, T. Toda, D. Saito, F. Villavicencio, T. Kinnunen, Z. Ling.
+	      <strong>The Voice Conversion Challenge 2018: Promoting Development of Parallel and Nonparallel Methods</strong>.
+	      <em>Odyssey</em>, 2018.
+	      [<a href="https://arxiv.org/abs/1804.04262">Paper</a>]
+	      [<a href="https://datashare.is.ed.ac.uk/handle/10283/3061">Dataset</a>]
+	    </div>
+
+	  	<div class="paddingleft">
+	      <a name="2" class="text-primary">[2]</a>
+	      T. Kaneko, H. Kameoka, K. Tanaka, N. Hozo.
+	      <strong>MaskCycleGAN-VC: Learning Non-parallel Voice Conversion with Filling in Frames</strong>.
+	      <em>ICASSP</em>, 2021.
+	      [<a href="https://arxiv.org/abs/2102.12841">Paper</a>]
+	    </div>
 	    
 	    <!-- <div class="paddingleft"> -->
 	      <!-- <a name="1" class="text-primary">[1]</a> -->
@@ -502,14 +519,7 @@
 	      <!-- [<a href="../cyclegan-vc3/index.html">Project</a>] -->
 	    <!-- </div> -->
 
-	    <div class="paddingleft">
-	      <a name="4" class="text-primary">[4]</a>
-	      J. Lorenzo-Trueba, J. Yamagishi, T. Toda, D. Saito, F. Villavicencio, T. Kinnunen, Z. Ling.
-	      <strong>The Voice Conversion Challenge 2018: Promoting Development of Parallel and Nonparallel Methods</strong>.
-	      <em>Odyssey</em>, 2018.
-	      [<a href="https://arxiv.org/abs/1804.04262">Paper</a>]
-	      [<a href="https://datashare.is.ed.ac.uk/handle/10283/3061">Dataset</a>]
-	    </div>
+
 
 	    <!-- <div class="paddingleft"> -->
 	      <!-- <a name="5" class="text-primary">[5]</a> -->
